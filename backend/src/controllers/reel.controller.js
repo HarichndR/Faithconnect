@@ -1,6 +1,6 @@
 const ResponseUtil = require("../utils/response.util");
 const AppError = require("../utils/AppError.util");
-const { HTTP_STATUS, ROLES } = require("../constants");
+const { HTTP_STATUS, ROLES, NOTIFICATION_TYPES } = require("../constants");
 const Reel = require("../models/reel.model");
 const User = require("../models/user.model");
 const uploadToCloudinary = require('../utils/cloudeneryUploader');
